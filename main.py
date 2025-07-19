@@ -3,18 +3,22 @@
 # Autor: Henry Callupe
 # Licencia: MIT
 
+import os
 import keyboard
 import time
+import psutil
 import pyautogui
 import winsound
 
 # Configuración del script
 config = {
-    'x': 2512,  # Coordenada X del píxel objetivo
-    'y': 1281,  # Coordenada Y del píxel objetivo
+    'x': 1883,  # Coordenada X del píxel objetivo # 1920 x 1080
+    'y': 965,  # Coordenada Y del píxel objetivo # 1920 x 1080
     'tecla': 'n', # Tecla para activar el salto automático
     'color_objetivo': (255, 255, 255) # Color del píxel objetivo (blanco)
 }
+
+psutil.Process(os.getpid()).nice(psutil.HIGH_PRIORITY_CLASS)
 
 def press_space():
     keyboard.press('space')
