@@ -6,7 +6,7 @@
 
 <!-- ─────────────────────────────────── DEMO ─────────────────────────────────── -->
 <p align="center">
-  <video src="assets/video.mp4" width="720" controls loop></video>
+  <img src="https://i.imgur.com/0oREcRe.gif" alt="Demostración Bunny Hop" width="480">
 </p>
 
 ---
@@ -101,7 +101,7 @@ python -m pyautogui
 
 3. **Anota las coordenadas** **X** y **Y**   
 <p align="center">
-    <img src="assets/img2.png" alt="Coordenadas" width="250">
+    <img src="assets/img2.jpg" alt="Coordenadas" width="250">
   </p>
 
 > ℹ️ **Ejemplos de referencia**  
