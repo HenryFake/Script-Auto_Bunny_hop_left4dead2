@@ -6,8 +6,9 @@
 
 <!-- ─────────────────────────────────── DEMO ─────────────────────────────────── -->
 <p align="center">
-  <img src="https://i.imgur.com/0oREcRe.gif" alt="Demostración Bunny Hop" width="480">
+  <img src="assets/demo.gif" alt="Demostración Bunny Hop">
 </p>
+
 
 ---
 
